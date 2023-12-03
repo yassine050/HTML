@@ -1,0 +1,22 @@
+<body>
+    <h1>Buscador de iPhones</h1>
+    <form id="iphoneSearchForm">
+        <label for="brandInput">Marca:</label>
+        <input type="text" id="brandInput" list="brandList" placeholder="Escribe para autocompletar">
+        <datalist id="brandList">
+            <option value="iPhone 13">
+            <option value="iPhone 12">
+            <option value="iPhone SE (2nd generacion)">
+            
+        </datalist>
+        <label for="priceRange">Rango de Precios:</label>
+        <select id="priceRange">
+            <option value="0-500">0 - 500 USD</option>
+            <option value="501-1000">501 - 1000 USD</option>
+            <option value="1001-1500">1001 - 1500 USD</option>
+            <option value="1501-2000">1501 - 2000 USD</option>
+            
+        </select>
+        <button type="button" onclick="searchIphones()">Buscar iPhones</button>
+    </form>
+</body>
