@@ -1,0 +1,21 @@
+@font-face {
+    font-family:  "Crunch-Chips";
+    src: url("Crunch-Chips.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family:  "Flamouse";
+    src: url("Flamouse-Personal-Use-Only.woff") format("woff");
+    font-display: swap;
+}
+
+.clase{
+    font-family: "Crunch-Chips";
+    
+}
+
+.titulo{
+    font-family: "Flamouse";
+    color: blue;
+    font-style: oblique;
+}

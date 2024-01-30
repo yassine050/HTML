@@ -1,0 +1,19 @@
+.texto{
+    color: blue;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Arial', sans-serif;
+
+}
+.autor{
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 100;
+}
+.testog {
+    font-size: medium;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Arial', sans-serif;
+}
