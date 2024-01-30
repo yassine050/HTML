@@ -1,0 +1,24 @@
+.texto{
+    color: blue;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Arial', sans-serif;
+    word-spacing: 1rem;
+}
+.autor{
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 100;
+    word-spacing: 1rem;
+}
+.testog {
+    font-size: medium;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+.prologo{
+    text-transform: uppercase;
+}
