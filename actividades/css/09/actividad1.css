@@ -1,0 +1,12 @@
+.titulo{
+    font-size: 2rem;
+}
+
+.base{
+    font-size: 50%;
+} 
+.preu{
+    font-size: 80%;
+    height: 100vh;
+    font-weight: bold;
+}
