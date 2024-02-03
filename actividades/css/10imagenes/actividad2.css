@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+.yo{
+    width: 100%;
+	max-width: 300px;
+	height: auto;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+main{
+    height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+}
+a {
+    text-decoration: none;
+    color: lightslategray;
+    font-weight: bold;
+  }

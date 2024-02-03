@@ -1,0 +1,37 @@
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+.avatar2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: auto;
+    display: block;
+
+    
+}
+.texto{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.fecha{
+    font-size: small;
+    color: lightslategray;
+}
+.remitnte{
+    text-align: right;
+}
+.nombre{
+    font-weight: bold;
+    color: lightslategray;
+
+}
+
+.destinatario{
+    text-align: left;
+}
