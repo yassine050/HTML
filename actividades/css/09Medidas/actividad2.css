@@ -1,0 +1,35 @@
+.parafo1{
+    background-color: lightblue;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+.parafo2{
+    background-color: lightgreen;
+    width: 250px;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+.parafo3{
+    background-color: lightpink;
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+.parafo4{
+    background-color: lightsalmon;
+    width: 350px;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+.parafo5{
+    background-color: lightyellow;
+    width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+
+}
