@@ -1,0 +1,7 @@
+.explicacion{
+    max-height: 5rem;
+    overflow: scroll;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

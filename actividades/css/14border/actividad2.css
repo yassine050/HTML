@@ -1,0 +1,8 @@
+.bordes{
+    border-right: 10px solid orange;
+    border-left: 10px solid orange;
+    border-style: dashed;
+    border-bottom: 10px solid orange;
+    border-top: 10px solid orange;
+   
+}

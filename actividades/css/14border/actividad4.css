@@ -1,0 +1,4 @@
+.bordes{
+   border: 2rem solid;
+    border-image: linear-gradient(#3ceaf6, #eb3737) 1;
+}
