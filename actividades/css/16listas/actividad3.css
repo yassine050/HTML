@@ -1,0 +1,19 @@
+.cuadro{
+    display: block;
+    list-style-type: none;
+    width: 100px;
+    border: 1px solid #333; 
+   
+    text-align: center;
+    color: white;
+    background-color: #bbb;
+}
+.cuadro:hover{
+    background-color: #333;
+    color: white;
+    list-style-type: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+  }

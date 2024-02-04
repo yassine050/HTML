@@ -1,0 +1,7 @@
+.bordes{
+    border-bottom: 10px solid red;
+    border-top: 10px solid red;
+    border-right: 10px solid red;
+    border-left: 10px solid red;
+    border-radius: 4rem;
+}
