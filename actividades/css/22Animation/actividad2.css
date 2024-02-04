@@ -1,0 +1,30 @@
+@keyframes girar {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+.img{
+
+    width: 200px;      
+    height: 400px;
+    transform-origin: center bottom;
+    animation: girar 10s linear infinite;
+}
+img{
+    width: 30px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #87CEEB; /* Color de fondo cielo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }

@@ -1,0 +1,70 @@
+.pricing-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  .pricing-table__plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .pricing-table__plan:hover .pricing-table__price {
+    color: #007bff;
+  }
+
+  .pricing-table__plan:hover .pricing-table__features {
+    height: auto;
+  }
+
+  .pricing-table__price {
+    font-size: 3em;
+    color: #ccc;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+
+  .pricing-table__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .pricing-table__features {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+
+  .pricing-table__feature {
+    margin-bottom: 5px;
+  }
+
+  .pricing-table__cta {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+  .pricing-table__cta:hover {
+    background-color: #0056b3;
+  }
+
+  .open {
+    height: auto;
+  }

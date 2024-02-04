@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .reloj {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #333;
+    border-radius: 50%;
+  }
+  .aguja-horas,
+  .aguja-minutos,
+  .aguja-segundos {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: #333;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 100%;
+    transform: translate(-50%, -100%) rotate(0deg);
+    transition: transform 0.5s cubic-bezier(0.4, 2.3, 0.7, 1.5);
+}
+.aguja-minutos {
+    height: 90px;
+    background-color: #555;
+  }
+
+  .aguja-segundos {
+    height: 100px;
+    background-color: #ff0000;
+  }
+  @keyframes animacionReloj {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .reloj.animado .aguja-horas {
+    animation: animacionReloj 43200s linear infinite;
+}
+.reloj.animado .aguja-minutos {
+        animation: animacionReloj 3600s linear infinite;
+    }
+.reloj.animado .aguja-segundos {
+    animation: animacionReloj 60s linear infinite;
+}
+
+

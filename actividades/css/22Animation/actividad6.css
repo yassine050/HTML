@@ -1,0 +1,23 @@
+.pendulo {
+    width: 100px;
+    height: 10px;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom center;
+    transform: translate(-50%, 0) rotate(-20deg);
+    animation: pendulo 1s ease-in-out infinite;
+  }
+
+  @keyframes pendulo {
+    0% {
+      transform: translate(-50%, 0) rotate(-20deg);
+    }
+    50% {
+      transform: translate(-50%, 100px) rotate(20deg);
+    }
+    100% {
+      transform: translate(-50%, 0) rotate(-20deg);
+    }
+  }

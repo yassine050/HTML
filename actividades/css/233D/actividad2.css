@@ -1,0 +1,12 @@
+.image-container {
+    perspective: 800px;
+  }
+
+  .image-container img {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .image-container:hover img {
+    transform: rotateX(15deg) rotateY(15deg) translateZ(50px);
+    box-shadow: 0 50px 20px rgba(0, 0, 0, 0.3);
+  }
