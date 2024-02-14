@@ -1,0 +1,94 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+body {
+    font-family: 'montserrat', 
+sans-serif;
+}
+.contenido{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(105, 155, 105);
+    color: white;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu li:hover a{
+    background-color: green;
+    color: aliceblue;
+}
+.menu .active{
+color: mediumaquamarine;
+}
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2em;
+  }
+.main img{
+    border: 5px solid mediumaquamarine;
+    width: 350px;
+    height: 520px;
+    object-fit: cover;
+}
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+  }
+  .about-info {
+    grid-column: 5/10;
+    padding: 3em;
+  }
+  .about-info h2 {
+    font-size: 2em;
+    color: #437c3c;
+  }
+.subrallado{
+    height: 4px;
+    width: 60px;
+    background-color: greenyellow;
+    margin-top: 3px;
+    margin-bottom: 2em;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+    background-color: gren;
+  }
+  
+  .footer-content h2 {
+    font-size: 3em;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+  }
