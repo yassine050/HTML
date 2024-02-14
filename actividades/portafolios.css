@@ -2,7 +2,7 @@
 url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
 body {
-    font-family: 'montserrat', 
+    font-family: 'Montserrat', 
 sans-serif;
 }
 .contenido{
@@ -21,6 +21,7 @@ sans-serif;
     width: 50%;
     justify-content: space-around;
 }
+
 .menu li{
     list-style: none;
     
