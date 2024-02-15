@@ -1,0 +1,81 @@
+
+body {
+    font-family: sans-serif;
+}
+.contenido{
+    width: 100vw;
+    height: 1000vh;
+    background-color: rgb(105, 155, 105);
+    color: white;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu li:hover a{
+    background-color: green;
+    color: aliceblue;
+}
+.menu .active{
+color: mediumaquamarine;
+}
+.contact-section {
+    padding: 3em;
+  }
+  
+.container-contact {
+    margin: 0 auto;
+    margin-top: 10em;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+  }
+  .form-group .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+  }
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+.subrallado{
+    height: 4px;
+    width: 60px;
+    background-color: greenyellow;
+    margin-top: 3px;
+    margin-bottom: 2em;
+}

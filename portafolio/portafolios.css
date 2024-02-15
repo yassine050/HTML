@@ -1,13 +1,10 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
 body {
-    font-family: 'Montserrat', 
-sans-serif;
+    font-family: sans-serif;
 }
 .contenido{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-color: rgb(105, 155, 105);
     color: white;
 }
@@ -53,11 +50,17 @@ color: mediumaquamarine;
     height: 520px;
     object-fit: cover;
 }
+
 .about {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     width: 100vw;
     align-items: center;
+  }
+  .about img{
+    width: 90%;
+    grid-column: 1/5;
+
   }
   .about-info {
     grid-column: 5/10;
