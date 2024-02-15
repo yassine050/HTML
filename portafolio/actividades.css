@@ -4,7 +4,7 @@ body {
 }
 .contenido{
     width: 100vw;
-    height: 10vh;
+    height: 1000vh;
     background-color: rgb(105, 155, 105);
     color: white;
 }
@@ -40,7 +40,7 @@ h2 {
     color: #437c3c;
 }
 .lista{
-    width: 50%;
+    width: 100%;
     justify-content: space-around;    
 }
 .lista li{
@@ -61,6 +61,7 @@ h2 {
     color: white;
     float: right;
     width: 50% ;
+    height: 100vh;
 }
 .subrallado{
     height: 4px;
@@ -77,7 +78,6 @@ h2 {
     width: 100vw;
     height: 200px;
     padding: 2em;
-    background-color: gren;
   }
   
   .footer-content h2 {
@@ -85,6 +85,6 @@ h2 {
   }
   
   .footer-content h5 {
-    font-size: 1.5em;
+    font-size: 0.9em;
     text-align: center;
   }
