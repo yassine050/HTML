@@ -4,7 +4,7 @@ body {
 }
 .contenido{
     width: 100vw;
-    height: 1000vh;
+    height: 100vh;
     background-color: rgb(105, 155, 105);
     color: white;
 }
@@ -79,3 +79,21 @@ color: mediumaquamarine;
     margin-top: 3px;
     margin-bottom: 2em;
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+  }
+  
+  .footer-content h2 {
+    font-size: 3em;
+  }
+  
+  .footer-content h5 {
+    font-size: 0.9em;
+    text-align: center;
+  }
