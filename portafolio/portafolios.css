@@ -41,8 +41,8 @@ color: mediumaquamarine;
     height: 80vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap: 2em;
+align-items: end;    
+gap: 2em;
   }
 .main img{
     border: 5px solid mediumaquamarine;
@@ -111,3 +111,32 @@ color: mediumaquamarine;
     font-size: 0.9em;
     text-align: center;
   }
+  table {
+    grid-column: 5/10;
+    width: 50%;
+    margin: 20px auto;
+    background: none;
+    border: none;
+    color: #437c3c;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+th {
+    background-color: #437c3c;
+    color: white;
+}
+
+.level {
+    width: var(--percentage);
+    background-color: #4CAF50; 
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 5px;
+}
