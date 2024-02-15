@@ -57,6 +57,8 @@ gap: 2em;
   border-radius: 20px;
   margin-top: 10px;
   cursor: pointer;
+  -webkit-box-shadow: 1px 3px 11px -5px rgba(102, 231, 124, 0.69);
+  -moz-box-shadow: 1px 3px 11px -5px rgba(102, 231, 124, 0.69);
   box-shadow: 1px 3px 11px -5px rgba(102, 231, 124, 0.69);
 }
 
@@ -98,7 +100,7 @@ gap: 2em;
     width: 100vw;
     height: 300px;
     padding: 2em;
-    background-color: gren;
+    background-color: green;
   }
   
   .footer-content h2 {
@@ -146,6 +148,6 @@ th {
 }
 
 .redes i {
-  font-size: 1.5 rem;
+  font-size: 1.5rem;
   color: green;
 }
